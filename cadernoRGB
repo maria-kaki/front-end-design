@@ -7,8 +7,19 @@ max = 255
 
 RGBA (A mexe com opacidade) -> de 0 a 1
 
+# Hexadecimal
+#FFFFFF
 
+2 primeiros - Red
+2 segundos - Green
+2 terceiros - Blue
 
+# HSL 
 
+(hue, saturation, lighness)
 
-  
+de 0° a 360°
+0 red
+120 green
+240 blue
+
