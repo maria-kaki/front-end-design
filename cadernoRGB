@@ -16,10 +16,16 @@ RGBA (A mexe com opacidade) -> de 0 a 1
 
 # HSL 
 
-(hue, saturation, lighness)
+(hue, saturation, lightness)
 
+## Hue
 de 0° a 360°
 0 red
 120 green
 240 blue
 
+## Saturation - 100%
+Mais ou menos nítido
+
+## Lithtness - 100% 
+Branco ou preto
