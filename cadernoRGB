@@ -46,5 +46,12 @@ $ git config --global user.email "maria.oliveira170922@gmail.com"
 -- cria a pasta git e vira um repositório dentro do terminal
 git init
 
+-- acompanha o arquivo criado (muda o U pra A)
+git add
 
+-- ve o status da branch
+git status
+
+-- commit
+git commit -m nome
 
