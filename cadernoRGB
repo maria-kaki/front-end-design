@@ -43,3 +43,8 @@ $ git config --global user.email "maria.oliveira170922@gmail.com"
 
 
 
+-- cria a pasta git e vira um repositório dentro do terminal
+git init
+
+
+
