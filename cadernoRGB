@@ -69,3 +69,7 @@ git remote -v
 
 -- push
 git push -u origin main
+
+-- edita titulo do commit
+git amend -m novocommit
+
