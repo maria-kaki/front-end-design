@@ -29,3 +29,17 @@ Mais ou menos nítido
 
 ## Lithtness - 100% 
 Branco ou preto
+
+
+
+logonrmlocal@PA603MICRO12 MINGW64 /d/frontend/front-end-design (main)
+$ git config --global user.name "maria-kaki"
+
+logonrmlocal@PA603MICRO12 MINGW64 /d/frontend/front-end-design (main)
+$ git config --global user.email "maria.oliveira170922@gmail.com"
+
+
+
+
+
+
