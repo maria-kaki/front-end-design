@@ -73,3 +73,5 @@ git push -u origin main
 -- edita titulo do commit
 git amend -m novocommit
 
+-- compara 2 commits
+git diff hashcommit1 .. hashcommit2
