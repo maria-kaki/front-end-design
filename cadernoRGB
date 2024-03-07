@@ -57,3 +57,15 @@ git commit -m nome
 
 -- ver histórico
 git log
+
+-- cria branch
+git branch -m main  
+
+-- liga o repositório em um repositório remoto
+git remote add origin https://github.com/maria-kaki/web-dev.git
+
+-- mostra os repositorios remotos q vc tem
+git remote -v
+
+-- push
+git push -u origin main
