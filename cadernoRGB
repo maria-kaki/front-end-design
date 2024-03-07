@@ -42,7 +42,7 @@ $ git config --global user.email "maria.oliveira170922@gmail.com"
 
 
 
-
+https://git-school.github.io/visualizing-git
 -- cria a pasta git e vira um repositório dentro do terminal
 git init
 
@@ -75,3 +75,9 @@ git amend -m novocommit
 
 -- compara 2 commits
 git diff hashcommit1 .. hashcommit2
+
+-- desfaz commit mas deixa salvo as alterações
+git revert hashcommit
+
+-- desfaz commit apagando tudo até ele
+git reset --hard hashcommit
