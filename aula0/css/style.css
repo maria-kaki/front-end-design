@@ -1,16 +1,22 @@
 
 .button1{
-    width: 20%;
+    width: 150px;
+    height: 50px;
     background-color: rgb(255, 0, 0);
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 10%;
+    
 }
 .button2{
     width: 20%;
     background-color: rgb(255, 0, 0);
     color: white;
+    border: none;
+    cursor: pointer;
+}
+.button3{
+    background-color: #00acee;
     border: none;
     cursor: pointer;
 }
