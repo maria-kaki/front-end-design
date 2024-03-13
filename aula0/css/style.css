@@ -1,0 +1,15 @@
+
+.button1{
+    width: 20%;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+}
+.button2{
+    width: 20%;
+            background-color: rgb(255, 0, 0);
+            color: white;
+            border: none;
+            cursor: pointer;
+}
