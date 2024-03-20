@@ -10,11 +10,6 @@
     border-radius: 5px;
 }
 
-.button1:hover{
-    background-color: white;
-    color: red;
-}
-
 .button1:active{
     opacity: 50%;
 }
