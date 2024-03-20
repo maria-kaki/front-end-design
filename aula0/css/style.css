@@ -9,14 +9,33 @@
     text-transform: uppercase;
     border-radius: 5px;
 }
+
+.button1:hover{
+    background-color: white;
+    color: red;
+}
+
+.button1:active{
+    opacity: 50%;
+}
+
 .button2{
     width: 60px;
     height: 36px;
+    color: rgb(6, 95, 212);
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-color: #00acee;
+    border: 1px solid;
     cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all ;
 }
+
+.button2:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
 .button3{
     width: 70px;
     height: 36px;
@@ -25,4 +44,9 @@
     border: none;
     cursor: pointer;
     border-radius: 50px;
+}
+
+.button3:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
 }
