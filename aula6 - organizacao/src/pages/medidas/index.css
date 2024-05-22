@@ -13,3 +13,19 @@ div{
 .sub-grupo{
     background-color: rgb(233, 233, 171);
 }
+
+.medida-vw{
+    width: 50vw;
+}
+
+.medida-vh{
+    height: 100vh;
+}
+
+.medida-em{
+    font-size: 2em;
+}
+
+.medida-rem{
+    font-size: 2rem;
+}
