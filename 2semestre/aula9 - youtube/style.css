@@ -10,7 +10,7 @@ body{
 }
 
 .video-box{
-    width: 350px;
+    width: 100%;
 }
 
 .video-box:hover{
@@ -78,4 +78,11 @@ main{
 
 .more svg{
     fill: white;
+}
+
+.videos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    column-gap: 20px;
+    row-gap: 40px;
 }
