@@ -1,0 +1,5 @@
+CMDKEY/List
+
+cmdkey/delete:TARGET
+
+DEPOIS LOGA COM O MEU
