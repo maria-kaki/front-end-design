@@ -1,0 +1,30 @@
+// pensa em python, você identa as coisas com TAB, você escolhe se quer SASS ou SCSS
+
+// usa o comando: sass --watch index.sass:index.css
+// esse comando serve para o html ler o SASS na estrutura CSS, converte para .CSS e cria sozinho assistindo o SASS
+// NÃO MEXA NOS ARQUIVOS .css NEM .css.map PORQUE ELES ATUALIZAM SOZINHOS ASSISTINDO SEU ARQUIVO .SASS
+
+$black: #333
+$primary-color: #c3005e
+    
+div
+    width: 50%
+    margin: 0 auto
+    text-align: center
+    border-radius: 10px
+    padding: 15px 10px
+    background: $black
+    font-family: Helvetica
+    border: 1px solid $black
+
+    p
+        color: $primary-color
+
+    &:hover
+        background: transparent
+
+        p
+            color: $black
+
+p
+    color: #a0a0a0

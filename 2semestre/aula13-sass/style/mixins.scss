@@ -1,0 +1,25 @@
+// pensa em CSS normal, mesmo estilo
+
+// usa o comando: sass --watch mixins.scss:mixins.css
+// esse comando serve para o html ler o SCSS na estrutura CSS, converte para .CSS e cria sozinho assistindo o SASS
+// NÃO MEXA NOS ARQUIVOS .css NEM .css.map PORQUE ELES ATUALIZAM SOZINHOS ASSISTINDO SEU ARQUIVO .SCSS
+
+@mixin div-size($w, $h){
+    width: $w;
+    height: $h;
+}
+
+@mixin default-config(){
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    @include default-config();
+}
+
+.container{
+    @include div-size(80%,100vh);
+    background-color: #e7e7e7;
+    margin: 0 auto;
+}
